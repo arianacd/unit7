@@ -13,7 +13,9 @@ def shift():
     this function shifts the alphabet the number of times the user chooses
     :return: the shifted alphabet
     """
-    user_shift = int(input("how many units do you want to shift the alphabet, choose a number from 1 to 25"))
+    user_shift = int(input("how many units do you want to shift the alphabet, choose a number from 0 to 26"))
+    if user_shift > 26:
+
     first = alphabet[0:user_shift]
     second = alphabet[user_shift:]
     alphabet2 = second + first
