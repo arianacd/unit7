@@ -1,5 +1,5 @@
 # by Ariana Daney
-# last modified november 12, 2019
+# last modified november 15, 2019
 # this program lets the user code or decode a word from rearranging the alphabet however much the user wants
 
 
