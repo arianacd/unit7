@@ -88,18 +88,19 @@
 # ex. 8
 
 
-def bubble_sort(names):
-    while True:
-        for x in range(len(names) - 1):
-            swap = 0
-            if names[x] > names[x + 1]:
-                temp = names[x + 1]
-                names[x + 1] = names[x]
-                names[x] = temp
-            swap += 1
-            if swap == swap:
-                break
-        return names
-
-
-print(bubble_sort([5, 1, 4, 2, 8]))
+# def bubble_sort(names):
+#     switched = True
+#     while switched:
+#         switched = False
+#         swap = 0
+#         for x in range(len(names) - 1):
+#             if names[x] > names[x + 1]:
+#                 switched = True
+#                 temp = names[x + 1]
+#                 names[x + 1] = names[x]
+#                 names[x] = temp
+#                 swap += 1
+#     return names
+#
+#
+# print(bubble_sort(["Bob", "Anna", "George"]))
